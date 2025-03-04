@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  --red: #ef4444;
+  --blue: #3b82f6;
+  --purple: #a855f7;
+  --green: #22c55e;
+  --orange: #f59e0b;
+  --black: #141010;
+  --white: #ffffff;
+  --xl: 40px;
+  --lg: 38px;
+  --md: 30px;
+  --base: 24px;
+  --sm: 22px;
+}
+/*Header*/
+.logoname {
+  color: var(--red);
+  font-weight: 500;
+  font-size: var(--xl);
+}
